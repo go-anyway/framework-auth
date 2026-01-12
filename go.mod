@@ -10,9 +10,3 @@ require (
 	github.com/golang-jwt/jwt/v5 v5.3.0
 )
 
-replace (
-	github.com/go-anyway/framework-config => ../core/config
-	github.com/go-anyway/framework-errors => ../core/errors
-	github.com/go-anyway/framework-gateway => ../core/gateway
-	github.com/go-anyway/framework-log => ../core/log
-)
